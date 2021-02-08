@@ -1,6 +1,6 @@
 # Hi there, I'm Adornete Jr :computer:<->:heart:
 
-I'm building a [transparent IT agency](https://cidcomp.com.br) and a project [Jornada Sênior] to help young developers(https://jornadasenior.com.br).
+I'm building a [transparent IT agency](https://cidcomp.com.br) and the project [Jornada Sênior](https://jornadasenior.com.br) to help young developers.
 
 [![Facebook](https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/adornetejr) 
 [![Twitter](https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/adornetejr) 
