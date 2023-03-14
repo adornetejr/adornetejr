@@ -25,8 +25,8 @@ I'm building a [transparent IT agency](https://cidcomp.com.br) and the project [
 
 <!--![](https://github-readme-stats.vercel.app/api?username=adornetejr&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)-->
 
-![](https://github-readme-stats.vercel.app/api?username=adornetejr&theme=radical&hide_border=false)
-![](https://github-readme-streak-stats.herokuapp.com/?user=adornetejr&theme=radical&hide_border=false&show_icons=true)
+![](https://github-readme-stats.vercel.app/api?username=adornetejr&theme=radical&hide_border=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=adornetejr&theme=radical&hide_border=false&show_icons=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=adornetejr&theme=radical&hide_border=false&layout=compact)
 
 
