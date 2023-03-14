@@ -16,11 +16,13 @@ I'm building a [transparent IT agency](https://cidcomp.com.br) and the project [
 
 <summary>&#127942 <b>GitHub Awards</b></summary><br/>
 
-![Github Trophy](https://github-profile-trophy.vercel.app/?username=adornetejr)
+![Github Trophys](https://github-profile-trophy.vercel.app/?username=adornetejr)
 
 <summary>:star: <b>GitHub Stars</b></summary><br/>
 
-![Adornete's github stats](https://github-readme-stats.vercel.app/api?username=adornetejr&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Adornete Jr's Github Stats](https://github-readme-stats.vercel.app/api?username=adornetejr&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=adornetejr&layout=compact)
 
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=adornetejr)
 
