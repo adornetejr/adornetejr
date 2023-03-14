@@ -27,7 +27,7 @@ I'm building a [transparent IT agency](https://cidcomp.com.br) and the project [
 ![](https://github-readme-streak-stats.herokuapp.com/?user=adornetejr&theme=monokai&hide_border=false&show_icons=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=adornetejr&theme=monokai&hide_border=false&layout=compact)
 
-<summary>&#127942 <b>GitHub Awards</b></summary><br/>
+## &#127942 <b>GitHub Awards</b><br/>
 
 ![Adornete Jr's Trophys](https://github-profile-trophy.vercel.app/?username=adornetejr&theme=monokai&row=1&margin-w=15)
 
@@ -38,7 +38,7 @@ Made with ❤️ by Adornete Jr
 <!--
 **adornetejr/adornetejr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+<summary>Here are some ideas to get you started:</summary>
 
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
