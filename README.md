@@ -18,8 +18,7 @@ I'm building a [transparent IT agency](https://cidcomp.com.br) and the project [
 -->
 
 <summary>&#127942 <b>GitHub Awards</b></summary><br/>
-
-![Adornete Jr's Trophys](https://github-profile-trophy.vercel.app/?username=adornetejr&theme=monokai&row=1&margin-w=15)
+![](https://github-profile-trophy.vercel.app/?username=adornetejr&theme=monokai&row=1&margin-w=15)
 
 <summary>:star: <b>GitHub Stats</b></summary><br/>
 
