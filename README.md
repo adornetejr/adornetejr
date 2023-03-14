@@ -1,12 +1,14 @@
 # Hi there, I'm Adornete Jr :computer:<->:heart:
 
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=adornetejr)
+
 <!--
 I'm building a [transparent IT agency](https://cidcomp.com.br) and the project [Jornada Sênior](https://jornadasenior.com.br) to help young developers.
 -->
 
-
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/adornetejr)
 [![Twitter](https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/adornetejr) 
+
 <!--
 [![Facebook](https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/adornetejr) 
 -->
@@ -17,10 +19,6 @@ I'm building a [transparent IT agency](https://cidcomp.com.br) and the project [
 - :moneybag: Looking for new clients, [contact me](mailto:adorentejr@gmail.com) please or hire via [Upwork](https://upwork.com/fl/adornetejr).
 -->
 
-<summary>&#127942 <b>GitHub Awards</b></summary><br/>
-
-![Adornete Jr's Trophys](https://github-profile-trophy.vercel.app/?username=adornetejr&theme=monokai&row=1&margin-w=15)
-
 <summary>:star: <b>GitHub Stats</b></summary><br/>
 
 <!--![](https://github-readme-stats.vercel.app/api?username=adornetejr&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)-->
@@ -29,8 +27,9 @@ I'm building a [transparent IT agency](https://cidcomp.com.br) and the project [
 ![](https://github-readme-streak-stats.herokuapp.com/?user=adornetejr&theme=monokai&hide_border=false&show_icons=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=adornetejr&theme=monokai&hide_border=false&layout=compact)
 
+<summary>&#127942 <b>GitHub Awards</b></summary><br/>
 
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=adornetejr)
+![Adornete Jr's Trophys](https://github-profile-trophy.vercel.app/?username=adornetejr&theme=monokai&row=1&margin-w=15)
 
 ---
 Made with ❤️ by Adornete Jr
