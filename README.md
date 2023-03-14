@@ -21,13 +21,12 @@ I'm building a [transparent IT agency](https://cidcomp.com.br) and the project [
 
 ![Adornete Jr's Trophys](https://github-profile-trophy.vercel.app/?username=adornetejr)
 
-<summary>:star: <b>GitHub Stars</b></summary><br/>
+<summary>:star: <b>GitHub Stats</b></summary><br/>
 
-![Adornete Jr's Stats](https://github-readme-stats.vercel.app/api?username=adornetejr&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![](https://github-readme-stats.vercel.app/api?username=adornetejr&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![](https://github-readme-streak-stats.herokuapp.com/?user=Marcone-Sudo&theme=radical&hide_border=false)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=adornetejr&layout=compact&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
-<summary>:star: <b>GitHub Most Used Languages</b></summary><br/>
-
-![Adornete Jr's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=adornetejr&layout=compact&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=adornetejr)
 
