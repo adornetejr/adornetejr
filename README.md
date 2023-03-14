@@ -19,7 +19,7 @@ I'm building a [transparent IT agency](https://cidcomp.com.br) and the project [
 
 <summary>&#127942 <b>GitHub Awards</b></summary><br/>
 
-![Adornete Jr's Trophys](https://github-profile-trophy.vercel.app/?username=adornetejr)
+![Adornete Jr's Trophys](https://github-profile-trophy.vercel.app/?username=adornetejr&theme=onedark&&margin-h=15)
 
 <summary>:star: <b>GitHub Stats</b></summary><br/>
 
