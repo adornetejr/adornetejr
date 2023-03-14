@@ -19,7 +19,7 @@ I'm building a [transparent IT agency](https://cidcomp.com.br) and the project [
 - :moneybag: Looking for new clients, [contact me](mailto:adorentejr@gmail.com) please or hire via [Upwork](https://upwork.com/fl/adornetejr).
 -->
 
-## <summary>:star: <b>GitHub Stats</b></summary><br/>
+## :star: <b>GitHub Stats</b><br/>
 
 <!--![](https://github-readme-stats.vercel.app/api?username=adornetejr&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)-->
 
