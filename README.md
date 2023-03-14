@@ -1,5 +1,5 @@
-# Hi there, I'm Adornete Jr :computer:<->:heart:
----
+# Hi there, I'm Adornete Jr 💻<->❤
+
 
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=adornetejr)
 
