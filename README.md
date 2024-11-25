@@ -1,8 +1,8 @@
-# 🇺🇸 Hi, this is my portfolio!
+## 🇺🇸 Hi, this is my portfolio!
 
 Here are my socials, the topics I research, projects I'm working on and hobbies. Feel free to reach out.
 
-# 🇧🇷 Olá, esse é meu portfólio!
+## 🇧🇷 Olá, esse é meu portfólio!
 
 Aqui estão minhas redes, os assuntos que pesquiso, projetos que estou trabalhando e hobbies. Bora conversar.
 
