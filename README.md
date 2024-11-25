@@ -1,4 +1,4 @@
-# Hi there, I'm Adornete Martins Jr 💻<->❤
+# Hi, there!
 
 
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=adornetejr)
