@@ -20,6 +20,7 @@ I'm building a [transparent IT agency](https://cidcomp.com.br) and the project [
 ## Follow me on socials 🌐<br/>
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/adornetejr)
+[![YouTube](https://img.shields.io/badge/youtube-%230077B5.svg?&style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@adornetejr)
 [![YouTube](https://img.shields.io/youtube/channel/subscribers/UCjzD03mR01Bj9tkVb0WSICA)](https://www.youtube.com/@adornetejr)
 <!--
 [![Twitter](https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/adornetejr) 
