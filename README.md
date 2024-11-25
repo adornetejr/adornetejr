@@ -1,4 +1,5 @@
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=adornetejr)
+[![YouTube](https://img.shields.io/youtube/channel/subscribers/UCjzD03mR01Bj9tkVb0WSICA)](https://www.youtube.com/@adornetejr)
 
 ## 🇺🇸 Hi, this is my portfolio!
 
@@ -21,7 +22,8 @@ I'm building a [transparent IT agency](https://cidcomp.com.br) and the project [
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/adornetejr)
 [![YouTube](https://img.shields.io/badge/youtube-%23FF0000.svg?&style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@adornetejr)
-[![YouTube](https://img.shields.io/youtube/channel/subscribers/UCjzD03mR01Bj9tkVb0WSICA)](https://www.youtube.com/@adornetejr)
+[![Instagram](https://img.shields.io/badge/instagram-%23E1306C.svg?&style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/adornetejr)
+
 <!--
 [![Twitter](https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/adornetejr) 
 [![Facebook](https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/adornetejr) 
