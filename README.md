@@ -1,3 +1,5 @@
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=adornetejr)
+
 ## 🇺🇸 Hi, this is my portfolio!
 
 Here are my socials, the topics I research, projects I'm working on and hobbies. Feel free to reach out.
@@ -5,8 +7,6 @@ Here are my socials, the topics I research, projects I'm working on and hobbies.
 ## 🇧🇷 Olá, esse é meu portfólio!
 
 Aqui estão minhas redes, os assuntos que pesquiso, projetos que estou trabalhando e hobbies. Bora conversar.
-
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=adornetejr)
 
 <!--
 I'm building a [transparent IT agency](https://cidcomp.com.br) and the project [Jornada Sênior](https://jornadasenior.com.br) to help young developers.
