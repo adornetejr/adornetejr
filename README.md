@@ -19,7 +19,7 @@ Aqui estão minhas redes, os assuntos que pesquiso, projetos que estou trabalhan
 - I'm a creator/engineer based in Brazil living of tech and internet since I was 18. 
 - I talk about my personal experiences, life & career, tech it's latest trends to help young developers.
 - I'm currently working as a Senior Software Enginner @ WEX Inc based in Maine USA.
-- Aske me about software as a service, platform engineering, software architecture, microservices and more..
+- Ask me about software as a service, platform engineering, software architecture, microservices and more..
 - Looking for an expert in software? [contact me](mailto:adorentejr@martinsjr)
 
 <br/>
