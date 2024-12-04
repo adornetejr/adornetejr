@@ -20,7 +20,7 @@ Aqui estão minhas redes, os assuntos que pesquiso, projetos que estou trabalhan
 - I talk about my personal experiences, life & career, tech and it's latest trends to help young developers.
 - I'm currently working as a Senior Software Enginner @ WEX Inc based in Maine USA.
 - Ask me about software as a service, platform engineering, software architecture, microservices and more..
-- Looking for an expert in software? [contact me](mailto:adorentejr@martinsjr)
+- Looking for an expert in software? [contact me](mailto:adorentejr@martins.rs)
 
 <br/>
 
