@@ -40,13 +40,13 @@ Aqui estão minhas redes, os assuntos que pesquiso, projetos que estou trabalhan
 
 <!--![](https://github-readme-stats.vercel.app/api?username=adornetejr&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)-->
 
-![](https://github-readme-stats.vercel.app/api?username=adornetejr-wex&theme=monokai&hide_border=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=adornetejr-wex&theme=monokai&hide_border=false&show_icons=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=adornetejr-wex&theme=monokai&hide_border=false&layout=compact)<br/>
+![](https://github-readme-stats.vercel.app/api?username=adornetejr&theme=monokai&hide_border=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=adornetejr&theme=monokai&hide_border=false&show_icons=true)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=adornetejr&theme=monokai&hide_border=false&layout=compact)<br/>
 
 ## GitHub awards 🏆 
 
-![Adornete Jr's Awards](https://github-profile-trophy.vercel.app/?username=adornetejr-wex&theme=monokai&row=1&margin-w=15)
+![Adornete Jr's Awards](https://github-profile-trophy.vercel.app/?username=adornetejr&theme=monokai&row=1&margin-w=15)
 
 <br/>
 
