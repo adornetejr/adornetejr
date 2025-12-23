@@ -1,4 +1,4 @@
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=adornetejr)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=adornetejr) <br/>
 [![YouTube](https://img.shields.io/youtube/channel/subscribers/UCjzD03mR01Bj9tkVb0WSICA)](https://www.youtube.com/@adornetejr)
 
 # Adornete Martins Jr <br/>
@@ -26,15 +26,14 @@ Aqui estão minhas redes, os assuntos que pesquiso, projetos que estou trabalhan
 
 ## Follow me on socials 🌐   
 
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/adornetejr)
-[![YouTube](https://img.shields.io/badge/youtube-%23FF0000.svg?&style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@adornetejr)
-[![Instagram](https://img.shields.io/badge/instagram-%23E1306C.svg?&style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/adornetejr)
-[![TikTok](https://img.shields.io/badge/tiktok-%23555555.svg?&style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@adornetejr)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/adornetejr) <br/>
+[![YouTube](https://img.shields.io/badge/youtube-%23FF0000.svg?&style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@adornetejr) <br/>
+[![Instagram](https://img.shields.io/badge/instagram-%23E1306C.svg?&style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/adornetejr) <br/>
+[![TikTok](https://img.shields.io/badge/tiktok-%23555555.svg?&style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@adornetejr) <br/>
 <!--
 [![Twitter](https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/adornetejr) 
 [![Facebook](https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/adornetejr) 
 -->
-<br/>
 
 <!--
 ## GitHub stats ⭐ 
