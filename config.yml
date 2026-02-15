@@ -8,10 +8,12 @@ username: adornetejr
 # Stats from all accounts will be combined in the dashboard
 additional_accounts:
 - adornetejr-wex
+
 # Organizations to track contributions to (optional)
-# Will count your PRs, issues, and commits to these organizations
-organizations:
-- wexinc
+# NOTE: Disabled because adornetejr-wex account already includes all WEX contributions
+# Fetching from org directly would require iterating through hundreds of repos (slow)
+# organizations:
+# - wexinc
 # Profile information displayed in the galaxy header
 profile:
   name: "Adornete Martins Jr"
