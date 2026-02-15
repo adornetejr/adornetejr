@@ -1,4 +1,4 @@
-name: Generate Profile SVGs
+name: Generate
 
 on:
   schedule:
@@ -11,13 +11,13 @@ on:
 
 jobs:
   generate:
-    name: Generate galaxy profile assets
+    name: Generate
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - uses: actions/setup-python@v5
         with:
