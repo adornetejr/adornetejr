@@ -108,8 +108,12 @@ def generate(args):
         
         # Fetch contributions to organizations
         if organizations:
-            # Use the primary account for org contributions
-            api = GitHubAPI(username)
+            # Use the work account (adornetejr-wex) for org access since it's a member
+            # If no additional accounts, fall back to primary account
+            org_account = additional_accounts[0] if additional_accounts else username
+            api = GitHubAPI(org_account)
+            logger.info("Using account @%s for organization queries", org_account)
+            
             for idx, org in enumerate(organizations, len(all_accounts) + 1):
                 logger.info("[%d/%d] Fetching contributions to org %s...", idx, len(all_accounts) + len(organizations), org)
                 try:
@@ -120,6 +124,16 @@ def generate(args):
                     logger.info("  Contributions: %s", org_stats)
                 except (requests.exceptions.RequestException, ValueError, KeyError) as e:
                     logger.warning("  Could not fetch org contributions for %s (%s). Skipping.", org, e)
+                
+                # Fetch languages from org repos where user contributed
+                try:
+                    org_languages = api.fetch_org_languages(org)
+                    # Aggregate languages
+                    for lang, bytes_count in org_languages.items():
+                        languages[lang] = languages.get(lang, 0) + bytes_count
+                    logger.info("  Languages: %d found", len(org_languages))
+                except (requests.exceptions.RequestException, ValueError, KeyError) as e:
+                    logger.warning("  Could not fetch org languages for %s (%s). Skipping.", org, e)
 
     logger.info("Aggregated Stats: %s", stats)
     logger.info("Total Languages: %d found", len(languages))

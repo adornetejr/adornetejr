@@ -274,3 +274,69 @@ class GitHubAPI:
                         e,
                     )
         return languages
+
+    def fetch_org_languages(self, org_name: str) -> dict:
+        """Fetch language byte counts from org repos where user has contributions.
+        
+        Args:
+            org_name: The organization name (e.g., 'wexinc')
+            
+        Returns:
+            dict mapping language names to byte counts
+        """
+        logger.info(f"    Fetching languages from org {org_name} repos...")
+        languages = {}
+        
+        try:
+            # Get all repos from the organization
+            page = 1
+            repos_with_contributions = 0
+            while True:
+                org_repos_resp = self._request(
+                    "GET",
+                    f"{self.REST_URL}/orgs/{org_name}/repos",
+                    params={"per_page": 100, "page": page, "type": "all"}
+                )
+                
+                if org_repos_resp.status_code != 200:
+                    logger.warning(f"    Could not fetch repos for org {org_name} (HTTP {org_repos_resp.status_code})")
+                    break
+                
+                repos = org_repos_resp.json()
+                if not repos:
+                    break
+                
+                for repo in repos:
+                    if repo.get("fork"):
+                        continue
+                    
+                    # Check if user has commits in this repo
+                    try:
+                        commits_resp = self._request(
+                            "GET",
+                            f"{self.REST_URL}/repos/{org_name}/{repo['name']}/commits",
+                            params={"author": self.username, "per_page": 1}
+                        )
+                        
+                        if commits_resp.status_code == 200 and commits_resp.json():
+                            # User has commits, fetch languages for this repo
+                            repos_with_contributions += 1
+                            lang_resp = self._request("GET", repo["languages_url"])
+                            if lang_resp.status_code == 200:
+                                for lang, bytes_count in lang_resp.json().items():
+                                    languages[lang] = languages.get(lang, 0) + bytes_count
+                    except requests.exceptions.RequestException:
+                        # Skip repos we can't access
+                        continue
+                
+                page += 1
+                
+                # Limit to 10 pages to avoid excessive API calls
+                if page > 10:
+                    break
+            
+            logger.info(f"    Found {len(languages)} languages across {repos_with_contributions} repos")
+        except requests.exceptions.RequestException as e:
+            logger.warning(f"    Error fetching org languages: {e}")
+        
+        return languages
