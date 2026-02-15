@@ -83,10 +83,15 @@ def generate(args):
         stats = {"commits": 0, "stars": 0, "prs": 0, "issues": 0, "repos": 0}
         languages = {}
 
+        # Get tokens for different accounts
+        work_token = os.environ.get("GITHUB_WORK_TOKEN", "")
+        
         # Fetch from user accounts
         for idx, account in enumerate(all_accounts, 1):
             logger.info("[%d/%d] Fetching data for @%s...", idx, len(all_accounts) + len(organizations), account)
-            api = GitHubAPI(account)
+            # Use work token for work account, default token for others
+            token = work_token if account in additional_accounts else None
+            api = GitHubAPI(account, token=token)
 
             try:
                 account_stats = api.fetch_stats()
@@ -111,7 +116,7 @@ def generate(args):
             # Use the work account (adornetejr-wex) for org access since it's a member
             # If no additional accounts, fall back to primary account
             org_account = additional_accounts[0] if additional_accounts else username
-            api = GitHubAPI(org_account)
+            api = GitHubAPI(org_account, token=work_token)
             logger.info("Using account @%s for organization queries", org_account)
             
             for idx, org in enumerate(organizations, len(all_accounts) + 1):
