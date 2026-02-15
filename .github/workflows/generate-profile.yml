@@ -39,5 +39,6 @@ jobs:
           git add assets/generated/
           if ! git diff --staged --quiet; then
             git commit -m "chore: update profile SVGs [skip ci]"
+            git pull --rebase origin main
             git push
           fi
