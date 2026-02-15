@@ -1,4 +1,4 @@
-name: Generate
+name: generate
 
 on:
   schedule:
@@ -11,7 +11,7 @@ on:
 
 jobs:
   generate:
-    name: Generate
+    name: generate
     runs-on: ubuntu-latest
     permissions:
       contents: write
