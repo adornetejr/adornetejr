@@ -1,54 +1,103 @@
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=adornetejr) <br/>
-[![YouTube](https://img.shields.io/youtube/channel/subscribers/UCjzD03mR01Bj9tkVb0WSICA)](https://www.youtube.com/@adornetejr)
-
-# Adornete Martins Jr <br/>
-
-### Hi, this is my portfolio! 🇺🇸   
-
-Here are my socials, the topics I research, projects I'm working on and hobbies. Feel free to reach out.
-
-### Olá, esse é meu portfólio! 🇧🇷   
-
-Aqui estão minhas redes, os assuntos que pesquiso, projetos que estou trabalhando e hobbies. Bora conversar.
+<div align="center">
+  <img src="./assets/generated/galaxy-header.svg" width="850" alt="Galaxy Header"/>
+</div>
 
 <br/>
 
-## Who am I 🧑‍💻   
-
-- I build software, platforms and products that scale.
-- I'm a creator/engineer based in Brazil living of tech and internet since I was 18. 
-- I talk about my personal experiences, life & career, tech and it's latest trends to help young developers.
-- I'm currently working as a Specialist Platform Enginner @ WEX Inc based in Maine USA.
-- Ask me about software as a service, platform engineering, software architecture, microservices and more..
-- Looking for an expert in software or platforms? [contact me](mailto:adorentejr@martins.rs)
+<div align="center">
+  <img src="./assets/generated/stats-card.svg" width="850" alt="Mission Telemetry"/>
+</div>
 
 <br/>
 
-## Follow me on socials 🌐   
-
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/adornetejr) <br/>
-[![YouTube](https://img.shields.io/badge/youtube-%23FF0000.svg?&style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@adornetejr) <br/>
-[![Instagram](https://img.shields.io/badge/instagram-%23E1306C.svg?&style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/adornetejr) <br/>
-[![TikTok](https://img.shields.io/badge/tiktok-%23555555.svg?&style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@adornetejr) <br/>
-<!--
-[![Twitter](https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/adornetejr) 
-[![Facebook](https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/adornetejr) 
--->
-
-<!--
-## GitHub stats ⭐ 
-
-![](https://github-readme-stats.vercel.app/api?username=adornetejr&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
-
-![](https://github-readme-stats.vercel.app/api?username=adornetejr&theme=monokai&hide_border=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=adornetejr&theme=monokai&hide_border=false&show_icons=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=adornetejr&theme=monokai&hide_border=false&layout=compact)<br/>
-
-## GitHub awards 🏆 
-
-![Adornete Jr's Awards](https://github-profile-trophy.vercel.app/?username=adornetejr&theme=monokai&row=1&margin-w=15)
+<div align="center">
+  <img src="./assets/generated/tech-stack.svg" width="850" alt="Tech Stack"/>
+</div>
 
 <br/>
--->
+
+<div align="center">
+  <img src="./assets/generated/projects-constellation.svg" width="850" alt="Featured Projects"/>
+</div>
+
+<br/>
+
+<details>
+<summary><strong>More about me</strong></summary>
+
+<br/>
+
+### 🚀 Current Role
+**Specialist Platform Engineer @ WEX Inc** — Portland, ME (Remote from Brazil)
+
+Architecting globally distributed API Gateway solutions (Apigee X) with 99.999% availability for mission-critical payment systems. Leading infrastructure modernization for PCI-DSS 4.0 compliance and building custom Terraform providers in Go to accelerate developer onboarding.
+
+### 💡 Expertise
+
+**Platform Engineering & Cloud Infrastructure**
+- Kubernetes orchestration across AWS EKS & GCP GKE with Istio service mesh
+- Infrastructure as Code: Terraform, ArgoCD, GitOps workflows
+- API Gateway: Google Cloud Apigee X, Active-Active global distribution
+- Custom tooling: Built Terraform Provider from scratch using Go
+
+**DevSecOps & Observability**  
+- CI/CD pipeline optimization for zero-downtime deployments
+- "Dashboards as Code" with Grafana, Prometheus, and OpenTelemetry
+- Blue/Green deployment strategies for PCI-DSS regulated environments
+- Security automation & compliance tooling
+
+**Software Architecture**
+- Microservices design patterns for Fintech ecosystems  
+- Event-driven architectures with high scalability
+- API design, documentation, and developer experience optimization
+- Domain-Driven Design & system architecture at enterprise scale
+
+### 🎓 Education & Certifications
+- **Machine Learning Specialization** — Stanford University (2021)
+- **Bachelor's in Computer Engineering** — Federal University of Rio Grande (FURG)
+- **Kubernetes and Cloud Native Associate (KCNA)** — CNCF
+- **Certified Linux Administrator (LPIC-1)** — LPI
+
+### 🌐 Languages
+Portuguese (Native) • English (Fluent) • Spanish (Intermediate) • Italian (Elementary)
+
+### 📊 Career Highlights
+- **12+ years** of software engineering and platform innovation
+- Architected **Active-Active API Gateway** serving millions of payment transactions
+- Reduced developer onboarding time by **60%** through custom automation tools
+- Led **cloud migration** projects optimizing infrastructure costs by 15%+
+- Published **5+ academic papers** on open science, data repositories, and research infrastructure
+
+</details>
+
+<br/>
+
+<div align="center">
+  <a href="mailto:adornetejr@gmail.com">
+    <img src="https://img.shields.io/badge/-Email-080c14?style=for-the-badge&logo=gmail&logoColor=00d4ff" alt="Email"/>
+  </a>
+  <a href="https://www.linkedin.com/in/adornetejr/">
+    <img src="https://img.shields.io/badge/-LinkedIn-080c14?style=for-the-badge&logo=linkedin&logoColor=a78bfa" alt="LinkedIn"/>
+  </a>
+  <a href="https://www.youtube.com/@adornetejr">
+    <img src="https://img.shields.io/badge/-YouTube-080c14?style=for-the-badge&logo=youtube&logoColor=ffb020" alt="YouTube"/>
+  </a>
+  <a href="https://www.instagram.com/adornetejr">
+    <img src="https://img.shields.io/badge/-Instagram-080c14?style=for-the-badge&logo=instagram&logoColor=00d4ff" alt="Instagram"/>
+  </a>
+  <a href="https://tiktok.com/@adornetejr">
+    <img src="https://img.shields.io/badge/-TikTok-080c14?style=for-the-badge&logo=tiktok&logoColor=a78bfa" alt="TikTok"/>
+  </a>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=adornetejr" alt="Visitors"/>
+</div>
+
 ---
-Made with ❤️
+
+<div align="center">
+  <sub>Profile SVGs auto-generated by <a href="https://github.com/vinimlo/galaxy-profile">galaxy-profile</a></sub>
+</div>
