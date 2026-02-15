@@ -27,6 +27,22 @@ def validate_config(config: dict) -> dict:
     if not username or not isinstance(username, str) or not username.strip():
         raise ConfigError("'username' is required and must be a non-empty string.")
 
+    # additional_accounts — optional, must be a list of strings
+    additional_accounts = config.get("additional_accounts", [])
+    if not isinstance(additional_accounts, list):
+        raise ConfigError("'additional_accounts' must be a list.")
+    for i, account in enumerate(additional_accounts):
+        if not isinstance(account, str) or not account.strip():
+            raise ConfigError(f"additional_accounts[{i}] must be a non-empty string.")
+
+    # organizations — optional, must be a list of strings
+    organizations = config.get("organizations", [])
+    if not isinstance(organizations, list):
+        raise ConfigError("'organizations' must be a list.")
+    for i, org in enumerate(organizations):
+        if not isinstance(org, str) or not org.strip():
+            raise ConfigError(f"organizations[{i}] must be a non-empty string.")
+
     # profile.name — required
     profile = config.get("profile", {})
     if not isinstance(profile, dict):

@@ -60,33 +60,69 @@ def generate(args):
         sys.exit(1)
 
     username = config["username"]
+    additional_accounts = config.get("additional_accounts", [])
+    organizations = config.get("organizations", [])
+    all_accounts = [username] + additional_accounts
 
-    logger.info("Generating profile SVGs for @%s...", username)
+    if len(all_accounts) > 1 or organizations:
+        extra_info = []
+        if len(additional_accounts) > 0:
+            extra_info.append(f"{len(additional_accounts)} additional account(s)")
+        if len(organizations) > 0:
+            extra_info.append(f"{len(organizations)} organization(s)")
+        logger.info("Generating profile SVGs for @%s (+ %s)...", username, ", ".join(extra_info))
+    else:
+        logger.info("Generating profile SVGs for @%s...", username)
 
     if demo:
         logger.info("Demo mode: using hardcoded stats and languages.")
         stats = DEMO_STATS
         languages = DEMO_LANGUAGES
     else:
-        # Fetch GitHub data
-        api = GitHubAPI(username)
+        # Fetch GitHub data from all accounts and aggregate
+        stats = {"commits": 0, "stars": 0, "prs": 0, "issues": 0, "repos": 0}
+        languages = {}
 
-        logger.info("Fetching stats...")
-        try:
-            stats = api.fetch_stats()
-        except (requests.exceptions.RequestException, ValueError, KeyError) as e:
-            logger.warning("Could not fetch stats (%s). Using defaults.", e)
-            stats = {"commits": 0, "stars": 0, "prs": 0, "issues": 0, "repos": 0}
+        # Fetch from user accounts
+        for idx, account in enumerate(all_accounts, 1):
+            logger.info("[%d/%d] Fetching data for @%s...", idx, len(all_accounts) + len(organizations), account)
+            api = GitHubAPI(account)
 
-        logger.info("Fetching languages...")
-        try:
-            languages = api.fetch_languages()
-        except (requests.exceptions.RequestException, ValueError, KeyError) as e:
-            logger.warning("Could not fetch languages (%s). Using defaults.", e)
-            languages = {}
+            try:
+                account_stats = api.fetch_stats()
+                # Aggregate stats
+                for key in stats:
+                    stats[key] += account_stats.get(key, 0)
+                logger.info("  Stats: %s", account_stats)
+            except (requests.exceptions.RequestException, ValueError, KeyError) as e:
+                logger.warning("  Could not fetch stats for @%s (%s). Skipping.", account, e)
 
-    logger.info("Stats: %s", stats)
-    logger.info("Languages: %d found", len(languages))
+            try:
+                account_languages = api.fetch_languages()
+                # Aggregate languages by summing byte counts
+                for lang, bytes_count in account_languages.items():
+                    languages[lang] = languages.get(lang, 0) + bytes_count
+                logger.info("  Languages: %d found", len(account_languages))
+            except (requests.exceptions.RequestException, ValueError, KeyError) as e:
+                logger.warning("  Could not fetch languages for @%s (%s). Skipping.", account, e)
+        
+        # Fetch contributions to organizations
+        if organizations:
+            # Use the primary account for org contributions
+            api = GitHubAPI(username)
+            for idx, org in enumerate(organizations, len(all_accounts) + 1):
+                logger.info("[%d/%d] Fetching contributions to org %s...", idx, len(all_accounts) + len(organizations), org)
+                try:
+                    org_stats = api.fetch_org_contributions(org)
+                    # Aggregate org contributions
+                    for key in stats:
+                        stats[key] += org_stats.get(key, 0)
+                    logger.info("  Contributions: %s", org_stats)
+                except (requests.exceptions.RequestException, ValueError, KeyError) as e:
+                    logger.warning("  Could not fetch org contributions for %s (%s). Skipping.", org, e)
+
+    logger.info("Aggregated Stats: %s", stats)
+    logger.info("Total Languages: %d found", len(languages))
 
     # Build SVGs
     builder = SVGBuilder(config, stats, languages)
