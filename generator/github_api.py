@@ -1,5 +1,6 @@
 """GitHub API client for fetching user stats and language data."""
 
+import datetime
 import logging
 import os
 import time
@@ -61,30 +62,40 @@ class GitHubAPI:
 
     def _fetch_stats_graphql(self) -> dict:
         """Fetch stats via GraphQL for accurate counts including private contributions."""
-        query = """
-        query($username: String!) {
-          user(login: $username) {
-            repositoriesContributedTo(contributionTypes: [COMMIT, PULL_REQUEST, ISSUE]) {
+        # Get contributions from multiple years (last 10 years)
+        current_year = datetime.datetime.now().year
+        years_to_fetch = list(range(current_year - 9, current_year + 1))
+        
+        # Build query with multiple contribution collections
+        collections_query = "\n".join([
+            f'year{year}: contributionsCollection(from: "{year}-01-01T00:00:00Z", to: "{year}-12-31T23:59:59Z") {{'
+            f'  totalCommitContributions\n'
+            f'  restrictedContributionsCount\n'
+            f'}}'
+            for year in years_to_fetch
+        ])
+        
+        query = f"""
+        query($username: String!) {{
+          user(login: $username) {{
+            repositoriesContributedTo(contributionTypes: [COMMIT, PULL_REQUEST, ISSUE]) {{
               totalCount
-            }
-            pullRequests {
+            }}
+            pullRequests {{
               totalCount
-            }
-            issues {
+            }}
+            issues {{
               totalCount
-            }
-            repositories(ownerAffiliations: OWNER, first: 100) {
+            }}
+            repositories(ownerAffiliations: OWNER, first: 100) {{
               totalCount
-              nodes {
+              nodes {{
                 stargazerCount
-              }
-            }
-            contributionsCollection {
-              totalCommitContributions
-              restrictedContributionsCount
-            }
-          }
-        }
+              }}
+            }}
+            {collections_query}
+          }}
+        }}
         """
         try:
             resp = self._request(
@@ -107,14 +118,20 @@ class GitHubAPI:
             return self._fetch_stats_rest()
 
         user = data["data"]["user"]
-        contrib = user["contributionsCollection"]
         repos = user["repositories"]
 
         total_stars = sum(n["stargazerCount"] for n in repos["nodes"])
-        total_commits = (
-            contrib["totalCommitContributions"]
-            + contrib["restrictedContributionsCount"]
-        )
+        
+        # Sum commits across all years
+        total_commits = 0
+        for year in years_to_fetch:
+            year_key = f"year{year}"
+            if year_key in user:
+                contrib = user[year_key]
+                total_commits += (
+                    contrib["totalCommitContributions"]
+                    + contrib["restrictedContributionsCount"]
+                )
 
         return {
             "commits": total_commits,
@@ -288,14 +305,22 @@ class GitHubAPI:
         languages = {}
         
         try:
-            # Get all repos from the organization
+            # Get recently updated repos from the organization (most likely to have recent contributions)
             page = 1
+            repos_checked = 0
             repos_with_contributions = 0
-            while True:
+            max_repos_to_check = 50  # Limit to first 50 repos to avoid excessive API calls
+            
+            while repos_checked < max_repos_to_check:
                 org_repos_resp = self._request(
                     "GET",
                     f"{self.REST_URL}/orgs/{org_name}/repos",
-                    params={"per_page": 100, "page": page, "type": "all"}
+                    params={
+                        "per_page": 30, 
+                        "page": page, 
+                        "sort": "updated",  # Most recently updated first
+                        "type": "all"
+                    }
                 )
                 
                 if org_repos_resp.status_code != 200:
@@ -307,10 +332,19 @@ class GitHubAPI:
                     break
                 
                 for repo in repos:
+                    if repos_checked >= max_repos_to_check:
+                        break
+                    
+                    repos_checked += 1
+                    
                     if repo.get("fork"):
                         continue
                     
-                    # Check if user has commits in this repo
+                    # Quick check: does this repo have any languages?
+                    if repo.get("language") is None:
+                        continue
+                    
+                    # Check if user has commits in this repo (limit to 1 result for speed)
                     try:
                         commits_resp = self._request(
                             "GET",
@@ -318,24 +352,22 @@ class GitHubAPI:
                             params={"author": self.username, "per_page": 1}
                         )
                         
-                        if commits_resp.status_code == 200 and commits_resp.json():
-                            # User has commits, fetch languages for this repo
-                            repos_with_contributions += 1
-                            lang_resp = self._request("GET", repo["languages_url"])
-                            if lang_resp.status_code == 200:
-                                for lang, bytes_count in lang_resp.json().items():
-                                    languages[lang] = languages.get(lang, 0) + bytes_count
+                        if commits_resp.status_code == 200:
+                            commits = commits_resp.json()
+                            if commits:  # User has at least one commit
+                                repos_with_contributions += 1
+                                # Fetch languages for this repo
+                                lang_resp = self._request("GET", repo["languages_url"])
+                                if lang_resp.status_code == 200:
+                                    for lang, bytes_count in lang_resp.json().items():
+                                        languages[lang] = languages.get(lang, 0) + bytes_count
                     except requests.exceptions.RequestException:
                         # Skip repos we can't access
                         continue
                 
                 page += 1
-                
-                # Limit to 10 pages to avoid excessive API calls
-                if page > 10:
-                    break
             
-            logger.info(f"    Found {len(languages)} languages across {repos_with_contributions} repos")
+            logger.info(f"    Found {len(languages)} languages across {repos_with_contributions} repos (checked {repos_checked} total)")
         except requests.exceptions.RequestException as e:
             logger.warning(f"    Error fetching org languages: {e}")
         

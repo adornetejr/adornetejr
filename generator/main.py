@@ -140,6 +140,13 @@ def generate(args):
                 except (requests.exceptions.RequestException, ValueError, KeyError) as e:
                     logger.warning("  Could not fetch org languages for %s (%s). Skipping.", org, e)
 
+    # Merge manual languages from config if specified
+    if "languages" in config and "manual" in config["languages"]:
+        manual_langs = config["languages"]["manual"]
+        logger.info("Adding %d manual languages from config", len(manual_langs))
+        for lang, bytes_count in manual_langs.items():
+            languages[lang] = languages.get(lang, 0) + bytes_count
+
     logger.info("Aggregated Stats: %s", stats)
     logger.info("Total Languages: %d found", len(languages))
 

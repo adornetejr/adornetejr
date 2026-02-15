@@ -10,10 +10,9 @@ additional_accounts:
 - adornetejr-wex
 
 # Organizations to track contributions to (optional)
-# NOTE: Disabled because adornetejr-wex account already includes all WEX contributions
-# Fetching from org directly would require iterating through hundreds of repos (slow)
-# organizations:
-# - wexinc
+# Will fetch languages from org repos where you have contributions
+organizations:
+- wexinc
 # Profile information displayed in the galaxy header
 profile:
   name: "Adornete Martins Jr"
@@ -108,3 +107,15 @@ languages:
   - "Shell"
   - "Makefile"
   max_display: 8 # Maximum number of languages to show
+
+  # Manual languages to add (useful for work repos where commits aren't attributed to your GitHub account)
+  # Format: language_name: relative_weight (higher = shows larger on chart)
+  manual:
+    Terraform: 30000
+    Go: 25000
+    Python: 20000
+    JavaScript: 15000
+    TypeScript: 15000
+    HCL: 10000
+    YAML: 8000
+    Groovy: 5000
