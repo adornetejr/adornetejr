@@ -2,7 +2,7 @@ name: generate
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 0 * * 0"  # Every Sunday at midnight UTC
   workflow_dispatch:
   push:
     paths:
