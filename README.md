@@ -35,28 +35,6 @@
 - **Stanford ML Specialization** · KCNA · LPIC-1 · Computer Engineering (FURG)
 - **5+ academic publications** on open science and research data infrastructure
 
-### Ecosystem — .dev.br
-
-Open-source Platform Engineering education funnel I built and maintain:
-
-<div align="center">
-
-<a href="https://mapa.dev.br"><img src="https://img.shields.io/badge/Mapa-7_free_roadmaps-00e5a0?style=for-the-badge&labelColor=0a0a0a" alt="Mapa"/></a>
-
-⬇️
-
-<a href="https://metodo.dev.br"><img src="https://img.shields.io/badge/Metodo-real_projects_+_mentorship-00e5a0?style=for-the-badge&labelColor=0a0a0a" alt="Metodo"/></a>
-
-⬇️
-
-<a href="https://clube.dev.br"><img src="https://img.shields.io/badge/Clube-community_+_immersions-00e5a0?style=for-the-badge&labelColor=0a0a0a" alt="Clube"/></a>
-
-⬇️
-
-<a href="https://plataforma.dev.br"><img src="https://img.shields.io/badge/Plataforma-enterprise_consulting-00e5a0?style=for-the-badge&labelColor=0a0a0a" alt="Plataforma"/></a>
-
-</div>
-
 <br/>
 
 <div align="center">
