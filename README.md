@@ -35,26 +35,36 @@
 - **Stanford ML Specialization** · KCNA · LPIC-1 · Computer Engineering (FURG)
 - **5+ academic publications** on open science and research data infrastructure
 
-### Ecosystem — [.dev.br](https://mapa.dev.br)
+### Ecosystem — .dev.br
+
 Open-source Platform Engineering education funnel I built and maintain:
 
-| Product | What | Link |
-|---------|------|------|
-| **Mapa** | 7 free technical roadmaps — Linux to Kubernetes | [mapa.dev.br](https://mapa.dev.br) |
-| **Metodo** | Structured program with real projects and mentorship | [metodo.dev.br](https://metodo.dev.br) |
-| **Clube** | Community with hands-on projects, immersions, and mentoring | [clube.dev.br](https://clube.dev.br) |
-| **Plataforma** | Enterprise consulting executed by a team of engineers | [plataforma.dev.br](https://plataforma.dev.br) |
+<div align="center">
 
-> Full career details, publications, and work history → [LinkedIn](https://www.linkedin.com/in/adornetejr/)
+<a href="https://mapa.dev.br"><img src="https://img.shields.io/badge/Mapa-7_free_roadmaps-00e5a0?style=for-the-badge&labelColor=0a0a0a" alt="Mapa"/></a>
+
+⬇️
+
+<a href="https://metodo.dev.br"><img src="https://img.shields.io/badge/Metodo-real_projects_+_mentorship-00e5a0?style=for-the-badge&labelColor=0a0a0a" alt="Metodo"/></a>
+
+⬇️
+
+<a href="https://clube.dev.br"><img src="https://img.shields.io/badge/Clube-community_+_immersions-00e5a0?style=for-the-badge&labelColor=0a0a0a" alt="Clube"/></a>
+
+⬇️
+
+<a href="https://plataforma.dev.br"><img src="https://img.shields.io/badge/Plataforma-enterprise_consulting-00e5a0?style=for-the-badge&labelColor=0a0a0a" alt="Plataforma"/></a>
+
+</div>
 
 <br/>
 
 <div align="center">
+  <a href="https://www.linkedin.com/in/adornetejr/">
+    <img src="https://img.shields.io/badge/-LinkedIn_(Full_CV)-080c14?style=for-the-badge&logo=linkedin&logoColor=a78bfa" alt="LinkedIn"/>
+  </a>
   <a href="mailto:adornetejr@gmail.com">
     <img src="https://img.shields.io/badge/-Email-080c14?style=for-the-badge&logo=gmail&logoColor=00d4ff" alt="Email"/>
-  </a>
-  <a href="https://www.linkedin.com/in/adornetejr/">
-    <img src="https://img.shields.io/badge/-LinkedIn-080c14?style=for-the-badge&logo=linkedin&logoColor=a78bfa" alt="LinkedIn"/>
   </a>
   <a href="https://www.youtube.com/@adornetejr">
     <img src="https://img.shields.io/badge/-YouTube-080c14?style=for-the-badge&logo=youtube&logoColor=ffb020" alt="YouTube"/>
