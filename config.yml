@@ -16,12 +16,13 @@ organizations:
 # Profile information displayed in the galaxy header
 profile:
   name: "Adornete Martins Jr"
-  tagline: "Specialist Platform Engineer @ WEX | Enterprise Architecture | DevSecOps"
+  tagline: "Specialist Platform Engineer @ WEX | Enterprise Architecture | API Gateway | DevSecOps"
   company: "WEX Inc"
   location: "Porto Alegre, Brazil"
   bio: |
-    Experienced software engineer with 12+ years driving platform innovation and cloud transformation.
-    Architecting globally distributed API Gateways, Kubernetes clusters, and DevSecOps pipelines.
+    Experienced software engineer with 14+ years driving platform innovation and cloud transformation.
+    Architecting globally distributed API Gateways, building custom Terraform Providers in Go,
+    and leading PCI-DSS 4.0 infrastructure modernization for Fintech ecosystems.
     Content creator sharing tech insights to help developers build better platforms.
   philosophy: '"Enabling business transformation through golden paths and exceptional developer experience."'
 

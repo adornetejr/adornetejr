@@ -22,48 +22,30 @@
 
 <br/>
 
-## More about me
+## About
 
-### 🚀 Current Role
-**Specialist Platform Engineer @ WEX Inc** — Portland, ME (Remote from Brazil)
+**Specialist Platform Engineer @ WEX Inc** — 14+ years building platforms that scale.
 
-Architecting globally distributed API Gateway solutions (Apigee X) with 99.999% availability for mission-critical payment systems. Leading infrastructure modernization for PCI-DSS 4.0 compliance and building custom Terraform providers in Go to accelerate developer onboarding.
+### Highlights
+- **Active-Active API Gateway** (Apigee X) with **99.999%** availability for mission-critical payments
+- **Custom Terraform Provider** built from scratch in Go — developer onboarding time cut by 60%
+- **PCI-DSS 4.0** compliance with Blue/Green zero-downtime deployments
+- **API governance maturity** 2.1 → 4.3, adopted by 15+ teams across Fintech verticals
+- **Monolith → microservices** transformations with 40% cost reduction
+- **Stanford ML Specialization** · KCNA · LPIC-1 · Computer Engineering (FURG)
+- **5+ academic publications** on open science and research data infrastructure
 
-### 💡 Expertise
+### Ecosystem — [.dev.br](https://mapa.dev.br)
+Open-source Platform Engineering education funnel I built and maintain:
 
-**Platform Engineering & Cloud Infrastructure**
-- Kubernetes orchestration across AWS EKS & GCP GKE with Istio service mesh
-- Infrastructure as Code: Terraform, ArgoCD, GitOps workflows
-- API Gateway: Google Cloud Apigee X, Active-Active global distribution
-- Custom tooling: Built Terraform Provider from scratch using Go
+| Product | What | Link |
+|---------|------|------|
+| **Mapa** | 7 free technical roadmaps — Linux to Kubernetes | [mapa.dev.br](https://mapa.dev.br) |
+| **Metodo** | Structured program with real projects and mentorship | [metodo.dev.br](https://metodo.dev.br) |
+| **Clube** | Community with hands-on projects, immersions, and mentoring | [clube.dev.br](https://clube.dev.br) |
+| **Plataforma** | Enterprise consulting executed by a team of engineers | [plataforma.dev.br](https://plataforma.dev.br) |
 
-**DevSecOps & Observability**  
-- CI/CD pipeline optimization for zero-downtime deployments
-- "Dashboards as Code" with Grafana, Prometheus, and OpenTelemetry
-- Blue/Green deployment strategies for PCI-DSS regulated environments
-- Security automation & compliance tooling
-
-**Software Architecture**
-- Microservices design patterns for Fintech ecosystems  
-- Event-driven architectures with high scalability
-- API design, documentation, and developer experience optimization
-- Domain-Driven Design & system architecture at enterprise scale
-
-### 🎓 Education & Certifications
-- **Machine Learning Specialization** — Stanford University (2021)
-- **Bachelor's in Computer Engineering** — Federal University of Rio Grande (FURG)
-- **Kubernetes and Cloud Native Associate (KCNA)** — CNCF
-- **Certified Linux Administrator (LPIC-1)** — LPI
-
-### 🌐 Languages
-Portuguese (Native) • English (Fluent) • Spanish (Intermediate) • Italian (Elementary)
-
-### 📊 Career Highlights
-- **12+ years** of software engineering and platform innovation
-- Architected **Active-Active API Gateway** serving millions of payment transactions
-- Reduced developer onboarding time by **60%** through custom automation tools
-- Led **cloud migration** projects optimizing infrastructure costs by 15%+
-- Published **5+ academic papers** on open science, data repositories, and research infrastructure
+> Full career details, publications, and work history → [LinkedIn](https://www.linkedin.com/in/adornetejr/)
 
 <br/>
 
