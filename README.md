@@ -24,7 +24,7 @@
 
 ## About
 
-**Specialist Platform Engineer @ WEX Inc** — 14+ years building platforms that scale.
+**Staff Platform Engineer @ WEX Inc** — 14+ years building platforms that scale.
 
 ### Highlights
 - **Active-Active API Gateway** (Apigee X) with **99.999%** availability for mission-critical payments
