@@ -108,6 +108,7 @@ languages:
   - "CSS"
   - "Shell"
   - "Makefile"
+  - "Perl"
   max_display: 8 # Maximum number of languages to show
 
   # Manual languages to add (useful for work repos where commits aren't attributed to your GitHub account)
