@@ -67,15 +67,15 @@ galaxy_arms:
 #   arm: 0-2                  — Which galaxy arm to associate with (index)
 #   description: "..."        — Short description shown on the card
 projects:
-- repo: "adornetejr/adornetejr"
+- repo: "adornetejr/homelab"
   arm: 0
-  description: "Interactive galaxy-themed GitHub profile with animated SVGs and real-time stats."
-- repo: "adornetejr/terraform-aws-eks"
-  arm: 0
-  description: "Production-ready Terraform modules for deploying Amazon EKS clusters."
-- repo: "adornetejr/devops-toolkit"
+  description: "Infrastructure docs, network inventory, and hardening plans for a 3-node Proxmox VE cluster."
+- repo: "adornetejr/claude-os"
   arm: 1
-  description: "Curated collection of DevSecOps tools, scripts, and best practices for platform teams."
+  description: "Multi-agent orchestration and governance framework for AI-assisted engineering workflows."
+- repo: "adornetejr/mexp-ui"
+  arm: 2
+  description: "Shared design system for a multi-tenant SaaS platform — tokens, primitives, and components."
 
 # Theme color overrides (optional — defaults to deep space palette)
 # All values must be valid hex color codes (#RRGGBB)
@@ -98,6 +98,7 @@ stats:
   - "prs"
   - "issues"
   - "repos"
+  - "followers"
 
 # Language display settings
 languages:

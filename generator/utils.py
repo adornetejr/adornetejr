@@ -119,12 +119,22 @@ REPO_ICON = (
     '1.087a.25.25 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2z"/>'
 )
 
+FOLLOWERS_ICON = (
+    '<path d="M2 5.5a3.5 3.5 0 1 1 5.898 2.549 5.508 5.508 0 0 1 3.034 4.084.75.75 '
+    '0 1 1-1.482.235 4 4 0 0 0-7.9 0 .75.75 0 0 1-1.482-.236A5.507 5.507 0 0 1 3.102 '
+    '8.05 3.493 3.493 0 0 1 2 5.5zM11 4a3.001 3.001 0 0 1 2.22 5.018 5.01 5.01 0 0 1 '
+    '2.56 3.012.749.749 0 0 1-.885.954.752.752 0 0 1-.549-.514 3.507 3.507 0 0 0-2.522-'
+    '2.372.75.75 0 0 1-.574-.73v-.352a.75.75 0 0 1 .416-.672A1.5 1.5 0 0 0 11 5.5.75.75 '
+    '0 0 1 11 4zM3.5 5.5a2 2 0 1 0 4 0 2 2 0 0 0-4 0z"/>'
+)
+
 METRIC_ICONS = {
     "commits": COMMIT_ICON,
     "stars": STAR_ICON,
     "prs": PR_ICON,
     "issues": ISSUE_ICON,
     "repos": REPO_ICON,
+    "followers": FOLLOWERS_ICON,
 }
 
 METRIC_LABELS = {
@@ -133,6 +143,7 @@ METRIC_LABELS = {
     "prs": "PRs",
     "issues": "Issues",
     "repos": "Repos",
+    "followers": "Followers",
 }
 
 METRIC_COLORS = {
@@ -141,6 +152,7 @@ METRIC_COLORS = {
     "prs": "dendrite_violet",
     "issues": "synapse_cyan",
     "repos": "dendrite_violet",
+    "followers": "axon_amber",
 }
 
 

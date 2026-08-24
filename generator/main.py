@@ -14,7 +14,7 @@ from generator.svg_builder import SVGBuilder
 
 logger = logging.getLogger(__name__)
 
-DEMO_STATS = {"commits": 1847, "stars": 342, "prs": 156, "issues": 89, "repos": 42}
+DEMO_STATS = {"commits": 1847, "stars": 342, "prs": 156, "issues": 89, "repos": 42, "followers": 128}
 DEMO_LANGUAGES = {
     "Python": 450000,
     "TypeScript": 380000,
@@ -80,7 +80,7 @@ def generate(args):
         languages = DEMO_LANGUAGES
     else:
         # Fetch GitHub data from all accounts and aggregate
-        stats = {"commits": 0, "stars": 0, "prs": 0, "issues": 0, "repos": 0}
+        stats = {"commits": 0, "stars": 0, "prs": 0, "issues": 0, "repos": 0, "followers": 0}
         languages = {}
 
         # Get tokens for different accounts

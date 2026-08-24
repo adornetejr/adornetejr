@@ -98,7 +98,7 @@ def validate_config(config: dict) -> dict:
     config.setdefault("social", {})
     config.setdefault("projects", [])
     config.setdefault("stats", {}).setdefault(
-        "metrics", ["commits", "stars", "prs", "issues", "repos"]
+        "metrics", ["commits", "stars", "prs", "issues", "repos", "followers"]
     )
     lang_cfg = config.setdefault("languages", {})
     lang_cfg.setdefault("exclude", [])

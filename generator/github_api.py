@@ -87,7 +87,10 @@ class GitHubAPI:
             issues {{
               totalCount
             }}
-            repositories(ownerAffiliations: OWNER, first: 100) {{
+            followers {{
+              totalCount
+            }}
+            repositories(ownerAffiliations: OWNER, first: 100, orderBy: {{field: STARGAZERS, direction: DESC}}) {{
               totalCount
               nodes {{
                 stargazerCount
@@ -139,6 +142,7 @@ class GitHubAPI:
             "prs": user["pullRequests"]["totalCount"],
             "issues": user["issues"]["totalCount"],
             "repos": repos["totalCount"],
+            "followers": user["followers"]["totalCount"],
         }
 
     def _fetch_stats_rest(self) -> dict:
@@ -180,6 +184,7 @@ class GitHubAPI:
             "prs": pr_count,
             "issues": issue_count,
             "repos": user_data.get("public_repos", 0),
+            "followers": user_data.get("followers", 0),
         }
 
     def _paginate_repos(self):
