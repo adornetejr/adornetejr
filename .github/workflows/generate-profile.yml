@@ -9,10 +9,15 @@ on:
       - "config.yml"
       - "generator/**"
 
+concurrency:
+  group: generate-profile
+  cancel-in-progress: false
+
 jobs:
   generate:
     name: generate
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     permissions:
       contents: write
 
