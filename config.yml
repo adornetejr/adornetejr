@@ -73,9 +73,9 @@ projects:
 - repo: "adornetejr/claude-os"
   arm: 1
   description: "Multi-agent orchestration and governance framework for AI-assisted engineering workflows."
-- repo: "adornetejr/mexp-ui"
+- repo: "adornetejr/terraform-aws-reference"
   arm: 2
-  description: "Shared design system for a multi-tenant SaaS platform — tokens, primitives, and components."
+  description: "AWS Terraform reference for EKS + Istio and VPC peering — platform scaffolding and learning notes."
 
 # Theme color overrides (optional — defaults to deep space palette)
 # All values must be valid hex color codes (#RRGGBB)
