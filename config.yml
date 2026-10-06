@@ -73,6 +73,9 @@ projects:
 - repo: "adornetejr/claude-os"
   arm: 1
   description: "Multi-agent orchestration and governance framework for AI-assisted engineering workflows."
+- repo: "adornetejr/redis-aws-eks-helm-charts"
+  arm: 0
+  description: "Redis high availability on AWS EKS — Sentinel, HAProxy and Istio gateway Helm charts, provisioned with Terraform."
 - repo: "adornetejr/terraform-aws-reference"
   arm: 2
   description: "AWS Terraform reference for EKS + Istio and VPC peering — platform scaffolding and learning notes."
